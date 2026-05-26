@@ -1,0 +1,185 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akansha Cloud Project</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f4f7fb;
+      color:#333;
+    }
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:40px;
+      margin-bottom:10px;
+    }
+
+    nav{
+      margin-top:10px;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+    }
+
+    .hero{
+      height:80vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(to right,#2563eb,#1e3a8a);
+      color:white;
+      padding:20px;
+    }
+
+    .hero h2{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:20px;
+      max-width:700px;
+      line-height:1.6;
+    }
+
+    .btn{
+      margin-top:25px;
+      padding:12px 25px;
+      background:white;
+      color:#1e3a8a;
+      border:none;
+      border-radius:5px;
+      font-size:18px;
+      cursor:pointer;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .services{
+      padding:60px 20px;
+      text-align:center;
+    }
+
+    .services h2{
+      font-size:36px;
+      margin-bottom:40px;
+      color:#0f172a;
+    }
+
+    .cards{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      background:white;
+      width:300px;
+      padding:25px;
+      border-radius:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3{
+      margin-bottom:15px;
+      color:#2563eb;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Akansha Cloud Project</h1>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Static Website Hosting on AWS S3</h2>
+
+    <p>
+      This website is hosted using Amazon S3 and delivered globally
+      using CloudFront CDN. The project demonstrates cloud deployment,
+      scalability, and static website hosting.
+    </p>
+
+    <a href="#" class="btn">Explore Project</a>
+  </section>
+
+  <section class="services">
+
+    <h2>Project Features</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Amazon S3</h3>
+        <p>
+          Website files are securely stored and hosted using Amazon S3.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CloudFront CDN</h3>
+        <p>
+          Fast global content delivery using AWS CloudFront.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>High Availability</h3>
+        <p>
+          Reliable and scalable cloud-based static hosting solution.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Akansha Singh | AWS Cloud Project
+    </p>
+  </footer>
+
+</body>
+</html>
